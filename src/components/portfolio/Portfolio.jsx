@@ -8,8 +8,16 @@ import Image5 from "../../assets/portfolio/5.png";
 import Image6 from "../../assets/portfolio/6.png";
 import Image7 from "../../assets/portfolio/7.png";
 import Image8 from "../../assets/portfolio/8.png";
+import Image9 from "../../assets/portfolio/9.png";
 
 const data = [
+  {
+    id: 9,
+    image: Image9,
+    title: "events app",
+    github: "https://github.com/issam-S/event-app",
+    demo: "https://event-app-ar.vercel.app/",
+  },
   {
     id: 1,
     image: Image1,
@@ -66,6 +74,8 @@ const data = [
     github: "https://github.com/issam-S/old-Portfolio",
     demo: "https://issam-s.github.io/old-Portfolio/",
   },
+  
+  
 ];
 function Portfolio() {
   return (
