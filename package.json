@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://issam-s.github.io/issam-salah/",
+  "homepage": "https://issam-salah.vercel.app/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
