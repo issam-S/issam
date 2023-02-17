@@ -25,7 +25,7 @@ function About() {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clinets</h5>
-              <small>300+ worldwide</small>
+              <small>worldwide</small>
             </article>
             <article className="about__card">
               <HiFolderOpen className="about__icon" />

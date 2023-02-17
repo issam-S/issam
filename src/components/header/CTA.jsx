@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Essam-Front_End-Developer.pdf";
+import CV from "../../assets/Essam-FrontEnd.pdf";
 
 function CTA() {
   return (
