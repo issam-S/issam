@@ -8,6 +8,7 @@ import Contact from "./components/contacts/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import LoadingScreen from "./components/loading/LoadingScreen";
 import React, { useState, useEffect } from "react";
+import SocialBtn from "./components/Buttons/social/SocialBtn";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ function App() {
           <Experience />
           <Services />
           <Portfolio />
+          <SocialBtn />
           <Contact />
         </div>
       )}

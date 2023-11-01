@@ -1,4 +1,4 @@
-.github {
+.githubBtn {
   position: relative;
   /* padding:15px 38px; */
   text-decoration: none;
@@ -23,7 +23,7 @@
 
 }
 
-.github:hover {
+.githubBtn:hover {
   animation: sh0 0.5s ease-in-out both;
 }
 
@@ -49,13 +49,13 @@
   }
 }
 
-.github:hover span {
+.githubBtn:hover span {
   animation: storm 0.7s ease-in-out both;
   animation-delay: 0.06s;
 }
 
-.github::before,
-.github::after {
+.githubBtn::before,
+.githubBtn::after {
   content: '';
   position: absolute;
   right: 0;
@@ -70,17 +70,17 @@
   transform: translate(100%, -25%) translate3d(0, 0, 0);
 }
 
-.github:hover::before,
-.github:hover::after {
+.githubBtn:hover::before,
+.githubBtn:hover::after {
   opacity: 0.15;
   transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
 
-.github:hover::before {
+.githubBtn:hover::before {
   transform: translate3d(50%, 0, 0) scale(0.9);
 }
 
-.github:hover::after {
+.githubBtn:hover::after {
   transform: translate(50%, 0) scale(1.1);
 }
 
@@ -89,7 +89,7 @@
 /* ==========Media Quaries (Medium Devices) =========== */
 
 @media screen and (max-width: 1024px) {
-  .github{
+  .githubBtn{
     width: 100%;
     margin-bottom: 15px;
   }
@@ -98,7 +98,7 @@
 /* ==========Media Quaries (Small Devices) =========== */
 
 @media screen and (max-width: 600px) {
-  .github{
+  .githubBtn{
     width: 100%;
     margin-bottom: 15px
   }

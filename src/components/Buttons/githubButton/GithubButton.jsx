@@ -3,8 +3,8 @@ import "./githubButton.css";
 
 export default function GithubButton() {
   return (
-    <a className="github">
+    <button className="githubBtn">
       <span>GitHub</span>
-    </a>
+    </button>
   );
 }
