@@ -43,9 +43,7 @@ function Contact() {
             <BsMessenger className="contact__option-icon" />
             <h4>Messrnger</h4>
             <h5>Essam Salah</h5>
-            <a href="https://m.me/essam2715" target="_blank">
-              Send a Message
-            </a>
+            <a href="https://m.me/essam2715">Send a Message</a>
           </article>
           <article className="contact__option">
             <FaWhatsapp className="contact__option-icon" />
