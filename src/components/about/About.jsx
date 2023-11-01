@@ -4,6 +4,7 @@ import ME from "../../assets/es.jpg";
 import { TbAward } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { HiFolderOpen } from "react-icons/hi";
+import StarButton from "../Buttons/starButton/StarButton";
 function About() {
   return (
     <section id="about">
@@ -34,10 +35,12 @@ function About() {
             </article>
           </div>
           <p>
-          Hi, my name is Essam. I am 28 years old, and I am a front-end developer with great passion for developing the educational web. More than 1 year experience
+            Hi, my name is Essam. I am 28 years old, and I am a front-end
+            developer with great passion for developing the educational web.
+            More than 1 year experience
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
+          <a href="#contact">
+            <StarButton title="Let's Talk" />
           </a>
         </div>
       </div>

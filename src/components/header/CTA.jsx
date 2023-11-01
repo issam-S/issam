@@ -1,14 +1,16 @@
 import React from "react";
 import CV from "../../assets/Essam-FrontEnd.pdf";
+import StarButton from "../Buttons/starButton/StarButton";
 
 function CTA() {
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
-        Download C.V
+      <a href={CV} download>
+        <StarButton title="Download C.V" />
       </a>
-      <a href="#contact" className="btn btn-primary">
-        Let's Talk
+
+      <a href="#contact">
+        <StarButton title="Let's Talk" />
       </a>
     </div>
   );

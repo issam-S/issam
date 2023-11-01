@@ -9,7 +9,8 @@ import Image6 from "../../assets/portfolio/6.png";
 import Image7 from "../../assets/portfolio/7.png";
 import Image8 from "../../assets/portfolio/8.png";
 import Image9 from "../../assets/portfolio/9.png";
-
+import GithubButton from "../Buttons/githubButton/GithubButton";
+import StarButton from "../Buttons/starButton/StarButton";
 const data = [
   {
     id: 9,
@@ -74,8 +75,6 @@ const data = [
     github: "https://github.com/issam-S/old-Portfolio",
     demo: "https://issam-s.github.io/old-Portfolio/",
   },
-  
-  
 ];
 function Portfolio() {
   return (
@@ -83,24 +82,19 @@ function Portfolio() {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        {
-        data.map(({id, image, title, github, demo}) => {
+        {data.map(({ id, image, title, github, demo }) => {
           return (
             <article className="portfolio__item" key={id}>
               <div className="portfolio__item-image ">
-                <img src={image} alt={title} loading="lazy"/>
+                <img src={image} alt={title} loading="lazy" />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn">
-                  GitHub
+                <a href={github}>
+                  <GithubButton />
                 </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer">
-                  Live Demo
+                <a href={demo} target="_blank" rel="noreferrer">
+                  <StarButton title="Live Demo" />
                 </a>
               </div>
             </article>
