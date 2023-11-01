@@ -8,11 +8,12 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transtion);
+  transition: var(--transition);
+  
 }
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--color-bg-variant);
+  border-color: var(--color-primary);
   cursor: default;
 }
 .experience__container > div h3 {
@@ -22,16 +23,25 @@
 }
 .experience__content {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(6,1fr);
   row-gap: 2rem;
+  
 }
 .experience__details {
+
   display: flex;
   gap: 1rem;
+  
 }
-.experience__details-icon {
-  margin-top: 6px;
+.experience__details i{
+  transition: var(--transition);
+
+
+}
+.experience__details i:hover {
   color: var(--color-primary);
+
+
 }
 
 /* ==========Media Quaries (Medium Devices) =========== */
@@ -55,6 +65,6 @@
     padding: 2rem 1rem;
   }
   .experience__content  {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3,1fr);
   }
 }
