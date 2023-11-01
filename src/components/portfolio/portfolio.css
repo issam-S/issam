@@ -25,6 +25,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    justify-content: space-between;
 }
 .portfolio__item-image img {
     border: 9px solid transparent;
@@ -45,6 +46,9 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .portfolio__item-cta{
+        display: block;
+    }
   }
   
   /* ==========Media Quaries (Small Devices) =========== */
@@ -53,6 +57,8 @@
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+    }.portfolio__item-cta{
+        display: block;
     }
 
   }
