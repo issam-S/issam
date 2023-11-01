@@ -88,6 +88,10 @@ header {
   /* .cta{
     display: block;
   } */
+  .header__container {
+
+    position:static
+  }
 }
 
 /* ==========Media Quaries (Small Devices) =========== */
@@ -103,6 +107,11 @@ header {
   }
   .cta{
     display: block;
+  }
+  .header__container {
+    text-align: center;
+    height: 100%;
+    position:static
   }
 }
 
