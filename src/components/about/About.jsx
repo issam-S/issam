@@ -37,7 +37,22 @@ function About() {
           <p>
             Hi, my name is Essam. I am 28 years old, and I am a front-end
             developer with great passion for developing the educational web.
-            More than 1 year experience
+            More than 1 year experience The work I provide is of the highest
+            quality, fully responsive, and tested in a wide range of devices. I
+            take great care to ensure each project is well-documented and easily
+            maintainable so you can enhance a website as your company grows.
+            Often front-end development of a website is overlooked, but being
+            the part of your project that combines design, back-end development
+            and the layer that your users interact with, from my experience, it
+            is the most important to get right. I create responsive websites
+            that allow the user to experience your website in the best and most
+            appropriate way suited to the device they are using. By working
+            using progressive enhancement, your website is delivered with a
+            responsive layout that can best make use of the space available on
+            the smallest to largest devices. Cross-browser compatibility is
+            ensured by using feature detection so older browsers still in use
+            today provide a solid experience, whilst modern browsers can go the
+            next step and enhance a user’s time spent on your site
           </p>
           <a href="#contact">
             <StarButton title="Let's Talk" />
