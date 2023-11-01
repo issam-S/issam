@@ -79,11 +79,15 @@ header {
 /* ==========Media Quaries (Medium Devices) =========== */
 
 @media screen and (max-width: 1024px) {
+  
   header{
     height: 68vh;
     padding-top: 2rem;
 
   }
+  /* .cta{
+    display: block;
+  } */
 }
 
 /* ==========Media Quaries (Small Devices) =========== */
@@ -96,6 +100,9 @@ header {
   .header__socials ,.scroll__down{
     display: none;
     
+  }
+  .cta{
+    display: block;
   }
 }
 
