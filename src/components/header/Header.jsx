@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/miu.png";
+import ME from "../../assets/c.jpg";
 import HeaderSocials from "./HeaderSocials";
 function Header() {
   return (
@@ -14,7 +14,10 @@ function Header() {
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt="me" />
+          <div className="image-container">
+            <img src={ME} alt="me" />
+            <div className="shiny-overlay"></div> {/* Shiny overlay */}
+          </div>
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

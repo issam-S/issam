@@ -87,8 +87,8 @@ function Portfolio() {
         data.map(({id, image, title, github, demo}) => {
           return (
             <article className="portfolio__item" key={id}>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+              <div className="portfolio__item-image ">
+                <img src={image} alt={title} loading="lazy"/>
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">

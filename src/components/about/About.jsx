@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/es.png";
+import ME from "../../assets/es.jpg";
 import { TbAward } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { HiFolderOpen } from "react-icons/hi";
