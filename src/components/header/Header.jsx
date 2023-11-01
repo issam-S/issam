@@ -15,7 +15,7 @@ function Header() {
 
         <div className="me">
           <div className="image-container">
-            <img src={ME} alt="me" />
+            <img src={ME} alt="me" loading="lazy" />
             <div className="shiny-overlay"></div> {/* Shiny overlay */}
           </div>
         </div>

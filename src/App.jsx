@@ -16,7 +16,7 @@ function App() {
     // Simulate loading delay (remove this in a real project)
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2500);
   }, []);
 
   return (
